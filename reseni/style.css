@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+}
+
+/* Tady je místo pro tvůj kód */
+
+body {
+  background-color: #d6e1ff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #1e2949;
+  margin: 1.5rem 0;
+}
+
+p {
+  color: #8d8ea0;
+  line-height: 1.5;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 0.5rem;
+}
+
+.order-summary {
+  width: 22rem;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  font-weight: 600;
+  width: 90%;
+}
+
+.plan {
+  font-weight: 900;
+  color: #1e2949;
+}
+
+.price {
+  font-weight: 700;
+}
+
+.change {
+  color: #4231c1;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+.change:hover {
+  color: #746bf1;
+  cursor: pointer;
+}
+
+.proceed {
+  background-color: #382ae1;
+  color: white;
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  font-weight: 800;
+  box-shadow: 1px 24px 34px 0px rgba(198, 194, 241, 0.82);
+  width: 100%;
+}
+
+.proceed:hover {
+  background-color: #746bf1;
+  cursor: pointer;
+}
+
+.cancel {
+  color: #787e99;
+  padding: 1rem 4rem;
+  margin-bottom: 1rem;
+}
+
+.cancel:hover {
+  cursor: pointer;
+}
+
+.order {
+  background-color: #f8f9fe;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  height: 5rem;
+  margin: 1.5rem 0;
+}

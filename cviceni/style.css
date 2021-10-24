@@ -1,23 +1,15 @@
-/* Style Guide
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-## Colors
+html {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+}
 
-### Primary
+/* Pro výběr barev můžeš použít např: https://imagecolorpicker.com/
+Pro vygenerování stínu pro tlačítko můžeš použít např: https://cssgenerator.org/box-shadow-css-generator.html */
 
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
-
-### Neutral
-
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
-
-## Typography
-
-- Font size (paragraph): 16px
-
-### Font
-
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900 */
+/* Tady je místo pro tvůj kód */
