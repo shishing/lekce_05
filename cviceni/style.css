@@ -13,3 +13,104 @@ html {
 Pro vygenerování stínu pro tlačítko můžeš použít např: https://cssgenerator.org/box-shadow-css-generator.html */
 
 /* Tady je místo pro tvůj kód */
+
+body{
+  background-color: #d6e1ff;
+}
+
+.hlavni{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  width: 450px;
+  border-radius: 15px;
+  margin: 100px auto 0 auto;
+  background-color: white;
+  
+
+
+}
+
+.img {
+  border-radius: 15px 15px 0 0;
+  }
+
+
+.text, .tlacitko_change, .tlacitko_payment, .tlacitko_order{
+  margin: 25px;
+}
+
+.text h1{
+  margin-bottom: 25px;
+  color: #202646;
+}
+
+.text p{
+  color: #8a91a2;
+  /*width: 80%;*/
+  
+}
+
+.tlacitko_change{
+  display: flex;
+  background-color: #f8f9fe;
+  width: 80%;
+  position: relative;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.icon{
+  margin: 15px;
+}
+
+.tlacitko_change p{
+  margin: 15px;
+}
+
+.tlacitko_change a{
+  margin: 0 15px 0 80px;
+  color: #5149af;
+  /*position: absolute;
+  top:auto;
+  bottom: auto;
+  right: 15px;
+  margin: 15px;
+  text-align: right;*/
+}
+
+.tlacitko_change .text_cena{
+  color: #8a91a2;
+}
+
+.tlacitko_payment{
+  background-color: #382ae1;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  /*box-shadow: 1px 62px 64px -14px rgba(220,215,246,255);*/
+  box-shadow: 1px 30px 64px -14px rgba(225,220,250,255);
+-webkit-box-shadow: 1px 30px 64px -14px rgba(225,220,250,255);
+-moz-box-shadow: 1px 30px 64px -14px rgba(225,220,250,255);
+}
+
+.tlacitko_payment a{
+  text-decoration: none;
+  color: white;
+}
+
+.tlacitko_cancel{
+  padding-bottom: 40px;
+}
+
+.tlacitko_cancel a{
+  text-decoration: none;
+  color: #788199;
+}
